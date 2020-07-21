@@ -1,0 +1,99 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+.container-fluid{
+	background-color: red;
+}
+.infor{
+	background-color: black
+}
+.infor i{
+	color: white;
+	padding: 5px 0px;
+	font-size: 15px;
+	margin-left: 50px
+}
+
+/* .container-fluid{
+	background-color: #db0808;
+} */
+
+.menu-level-2{
+padding: 16px 20px;
+}
+
+
+
+.navbar-default .navbar-nav>li>a{
+	font-size: 16px;\
+	color: white;
+}
+
+.item-level-1 a,i{
+	font-size: 16px;
+/* 	line-height: 20px; */
+}
+
+.item-level-1{
+	padding: 10px 20px;
+}
+.item-level-1:hover{
+	background-color: #25db2b;
+}
+
+.item-level-1:hover .menu-level-2{
+	display: block;
+	background-color: pink
+}
+
+.menu-level-2{
+	border: 1px solid #ddd;
+	box-shadow: 1px 1px 4px #ddd;
+	position: absolute;
+	top: 58px;
+	display: none;
+}
+.menu-level-2 a{
+	color: black;
+
+}
+
+.item-level-2 ul,li{
+	list-style: none;
+
+}
+
+.navbar-nav>li {
+	margin-left: 85px;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: white;
+}
+/* .menu-level-2, .item-level-2>li>a:hover{
+	padding: 10px 40px;
+} */
+
+.navbar-default{
+	margin-bottom: 15px;
+}
+
+.list-group-item:hover{
+	background-color: #c9303b;
+}
+
+.zoom {
+  padding: 40px;
+  transition: transform .2s;
+  width: 300px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
